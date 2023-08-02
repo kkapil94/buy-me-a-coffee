@@ -6,8 +6,18 @@
   "devDependencies": {
     "hardhat": "^2.17.0"
   },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "ethers": "^6.6.7",
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
